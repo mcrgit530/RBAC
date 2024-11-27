@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john.doe@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com"
+    },
+    {
+      "id": 3,
+      "name": "Alice Johnson",
+      "email": "alice.johnson@example.com"
+    },
+    {
+      "id": 4,
+      "name": "Bob Brown",
+      "email": "bob.brown@example.com"
+    }
+  ],
+  "roles": [
+    {
+      "id": 1,
+      "name": "Admin",
+      "permissions": [
+        "read",
+        "write",
+        "delete"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Editor",
+      "permissions": [
+        "read",
+        "write"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Viewer",
+      "permissions": [
+        "read"
+      ]
+    }
+  ],
+  "permissions": [
+    {
+      "id": 1,
+      "name": "read"
+    },
+    {
+      "id": 2,
+      "name": "write"
+    },
+    {
+      "id": 3,
+      "name": "delete"
+    }
+  ]
+}
